@@ -10,6 +10,7 @@ import WhyNovaTech from "@/components/why-novatech";
 import Reviews from "@/components/reviews";
 import Footer from "@/components/footer";
 import FloatingChat from "@/components/floating-chat";
+import BestSellers from "@/components/best-sellers";
 
 export default function Home() {
 return ( <main className="bg-black"> <PromoBar />
@@ -24,6 +25,8 @@ return ( <main className="bg-black"> <PromoBar />
   <Categories />
 
   <Brands />
+  
+  <BestSellers />
 
   <FeaturedProducts />
 
