@@ -23,9 +23,9 @@ return ( <main className="bg-black"> <Navbar />
   <WhyNovaTech />
 
   <Reviews />
-  
+
   <Footer />
-  
+
   <FloatingChat />
 </main>
 

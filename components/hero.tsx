@@ -25,21 +25,27 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
       transition={{ duration: 1 }}
     >
       <span className="rounded-full border border-white/10 px-4 py-2 text-xs text-white">
-        PREMIUM APPLE PRODUCTS
+        PREMIUM TECH & GADGETS
       </span>
 
       <h1 className="mt-8 text-5xl font-bold leading-tight text-white md:text-8xl">
-        Experience
+        Premium
         <br />
-        Apple,
+        Gadgets.
         <br />
-        Elevated.
+        Trusted.
       </h1>
 
       <p className="mt-8 max-w-xl text-lg text-zinc-400">
-        Genuine Apple products with nationwide shipping,
-        premium support, and trusted service.
+        Discover premium gadgets, accessories, and tech essentials
+        with nationwide shipping, trusted service, and competitive pricing.
       </p>
+
+      <div className="mt-8 flex flex-wrap gap-6 text-sm text-zinc-300">
+        <span>⭐ Trusted Seller</span>
+        <span>📦 Nationwide Shipping</span>
+        <span>🛡️ Genuine Products</span>
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-4">
 
@@ -47,14 +53,14 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
           onClick={scrollToProducts}
           className="rounded-full bg-white px-8 py-4 font-medium text-black transition hover:scale-105"
         >
-          Browse Collection
+          Shop Now
         </button>
 
         <button
           onClick={scrollToProducts}
           className="rounded-full border border-white/10 px-8 py-4 text-white transition hover:bg-white/10"
         >
-          Reserve Yours
+          View Products
         </button>
 
       </div>
@@ -73,7 +79,7 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
     >
       <Image
         src="/products/airpods-pro.png"
-        alt="AirPods Pro"
+        alt="NovaTech Featured Product"
         width={700}
         height={700}
         priority
