@@ -4,31 +4,31 @@ import { motion } from "framer-motion";
 
 const categories = [
 {
-icon: "🎧",
 title: "Audio",
-description: "AirPods, Earbuds & Speakers",
+icon: "🎧",
 },
 {
-icon: "⌚",
 title: "Wearables",
-description: "Smart Watches & Fitness Tech",
+icon: "⌚",
 },
 {
-icon: "📱",
-title: "Mobile",
-description: "Phones & Mobile Accessories",
-},
-{
-icon: "💻",
 title: "Tablets",
-description: "iPads & Productivity Devices",
+icon: "💻",
 },
 {
+title: "TVs",
+icon: "📺",
+},
+{
+title: "Gaming",
 icon: "🎮",
-title: "Accessories",
-description: "Gaming & Tech Essentials",
+},
+{
+title: "Home Tech",
+icon: "🏠",
 },
 ];
+
 
 export default function Categories() {
 return ( <section className="bg-black px-6 py-24"> <div className="mx-auto max-w-7xl">

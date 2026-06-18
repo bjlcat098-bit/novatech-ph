@@ -1,3 +1,4 @@
+import PromoBar from "@/components/promo-bar";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import TrustBanner from "@/components/trust-banner";
@@ -11,8 +12,10 @@ import Footer from "@/components/footer";
 import FloatingChat from "@/components/floating-chat";
 
 export default function Home() {
-return ( <main className="bg-black"> <Navbar />
+return ( <main className="bg-black"> <PromoBar />
 
+
+  <Navbar />
 
   <Hero />
 

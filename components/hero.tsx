@@ -24,44 +24,100 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      <span className="rounded-full border border-white/10 px-4 py-2 text-xs text-white">
-        PREMIUM TECH & GADGETS
+      <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-xs text-blue-300">
+        PREMIUM GADGETS & ELECTRONICS
       </span>
 
       <h1 className="mt-8 text-5xl font-bold leading-tight text-white md:text-8xl">
         Premium
         <br />
-        Gadgets.
+        Tech.
         <br />
-        Trusted.
+        Delivered.
       </h1>
 
       <p className="mt-8 max-w-xl text-lg text-zinc-400">
-        Discover premium gadgets, accessories, and tech essentials
-        with nationwide shipping, trusted service, and competitive pricing.
+        Discover authentic gadgets, electronics, gaming devices,
+        wearables, and premium tech with nationwide delivery and
+        trusted customer service.
       </p>
 
-      <div className="mt-8 flex flex-wrap gap-6 text-sm text-zinc-300">
-        <span>⭐ Trusted Seller</span>
-        <span>📦 Nationwide Shipping</span>
-        <span>🛡️ Genuine Products</span>
+      <div className="mt-8 grid gap-3 text-sm text-zinc-300 md:grid-cols-2">
+
+        <div>✓ Authentic Products</div>
+
+        <div>✓ Nationwide Shipping</div>
+
+        <div>✓ Trusted Seller</div>
+
+        <div>✓ Fast Messenger Support</div>
+
       </div>
 
       <div className="mt-10 flex flex-wrap gap-4">
 
         <button
           onClick={scrollToProducts}
-          className="rounded-full bg-white px-8 py-4 font-medium text-black transition hover:scale-105"
+          className="
+            rounded-full
+            bg-white
+            px-8
+            py-4
+            font-medium
+            text-black
+            transition
+            hover:scale-105
+          "
         >
           Shop Now
         </button>
 
         <button
           onClick={scrollToProducts}
-          className="rounded-full border border-white/10 px-8 py-4 text-white transition hover:bg-white/10"
+          className="
+            rounded-full
+            border
+            border-white/10
+            px-8
+            py-4
+            text-white
+            transition
+            hover:bg-white/10
+          "
         >
-          View Products
+          Browse Collection
         </button>
+
+      </div>
+
+      <div className="mt-10 flex flex-wrap gap-6">
+
+        <div>
+          <div className="text-2xl font-bold text-white">
+            100%
+          </div>
+          <div className="text-sm text-zinc-500">
+            Authentic
+          </div>
+        </div>
+
+        <div>
+          <div className="text-2xl font-bold text-white">
+            Fast
+          </div>
+          <div className="text-sm text-zinc-500">
+            Delivery
+          </div>
+        </div>
+
+        <div>
+          <div className="text-2xl font-bold text-white">
+            Trusted
+          </div>
+          <div className="text-sm text-zinc-500">
+            Service
+          </div>
+        </div>
 
       </div>
 
