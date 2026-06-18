@@ -6,29 +6,34 @@ const categories = [
 {
 title: "Audio",
 icon: "🎧",
+description: "Headphones, Earbuds & Speakers",
 },
 {
 title: "Wearables",
 icon: "⌚",
+description: "Smart Watches & Fitness Devices",
 },
 {
 title: "Tablets",
 icon: "💻",
+description: "iPads & Productivity Devices",
 },
 {
 title: "TVs",
 icon: "📺",
+description: "Smart TVs & Entertainment",
 },
 {
 title: "Gaming",
 icon: "🎮",
+description: "Consoles & Gaming Devices",
 },
 {
 title: "Home Tech",
 icon: "🏠",
+description: "Smart Home & Appliances",
 },
 ];
-
 
 export default function Categories() {
 return ( <section className="bg-black px-6 py-24"> <div className="mx-auto max-w-7xl">
@@ -44,7 +49,7 @@ return ( <section className="bg-black px-6 py-24"> <div className="mx-auto max-w
       </p>
     </div>
 
-    <div className="grid gap-6 md:grid-cols-5">
+    <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-6">
 
       {categories.map((category, index) => (
         <motion.div
@@ -78,6 +83,7 @@ return ( <section className="bg-black px-6 py-24"> <div className="mx-auto max-w
       ))}
 
     </div>
+
   </div>
 </section>
 
