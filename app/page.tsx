@@ -1,6 +1,8 @@
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import TrustBanner from "@/components/trust-banner";
+import Categories from "@/components/categories";
+import Brands from "@/components/brands";
 import FeaturedProducts from "@/components/featured-products";
 import IpadSpotlight from "@/components/ipad-spotlight";
 import WhyNovaTech from "@/components/why-novatech";
@@ -15,6 +17,10 @@ return ( <main className="bg-black"> <Navbar />
   <Hero />
 
   <TrustBanner />
+
+  <Categories />
+
+  <Brands />
 
   <FeaturedProducts />
 
