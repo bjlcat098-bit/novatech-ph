@@ -33,7 +33,7 @@ Can you confirm availability?`;
 const encoded = encodeURIComponent(message);
 
 window.open(
-  `https://m.me/NOVATECHPH?ref=${encoded}`,
+  `https://www.facebook.com/messages/t/michelle.tik`,
   "_blank"
 );
 
