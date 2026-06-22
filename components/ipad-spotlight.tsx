@@ -16,7 +16,7 @@ return ( <section className="relative overflow-hidden bg-black py-40"> <div clas
       viewport={{ once: true }}
     >
       <Image
-        src="/products/ipad-air-13.png"
+        src="/products/ipad-air-13-front.png"
         alt='iPad Air 13" M3'
         width={700}
         height={700}

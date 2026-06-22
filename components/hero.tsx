@@ -134,7 +134,7 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
       className="relative"
     >
       <Image
-        src="/products/airpods-pro.png"
+        src="/products/switch-oled-front.png"
         alt="NovaTech Featured Product"
         width={700}
         height={700}
