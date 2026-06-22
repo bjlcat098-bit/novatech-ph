@@ -2,7 +2,7 @@
 
 export default function FloatingChat() {
 return ( <a
-   href="https://m.me/YOURPAGE"
+   href="https://www.facebook.com/messages/t/michelle.tik"
    target="_blank"
    rel="noopener noreferrer"
    className="
