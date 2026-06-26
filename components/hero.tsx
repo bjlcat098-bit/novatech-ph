@@ -134,7 +134,7 @@ return ( <section className="relative flex min-h-screen items-center overflow-hi
       className="relative"
     >
       <Image
-        src="/products/switch-oled-front.png"
+        src="/products/switch-oled.png"
         alt="NovaTech Featured Product"
         width={700}
         height={700}

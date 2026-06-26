@@ -1,3 +1,4 @@
+import ProductGallery from "@/components/product-gallery";
 import Image from "next/image";
 import Link from "next/link";
 import { products } from "@/data/products";
@@ -34,16 +35,15 @@ return ( <main className="min-h-screen bg-black px-6 py-32"> <div className="mx-
 
     <div className="grid gap-16 lg:grid-cols-2">
 
-      <div className="relative flex items-center justify-center">
+      <div className="relative z-10">
 
-        <div className="absolute inset-0 bg-blue-500/10 blur-[120px]" />
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-blue-500/10 blur-[120px]" />
 
-        <Image
-          src={product.image}
+        <ProductGallery
+          images={product.gallery}
+          video={product.video}
+          videoThumbnail={product.videoThumbnail}
           alt={product.name}
-          width={700}
-          height={700}
-          className="relative mx-auto object-contain"
         />
 
       </div>
